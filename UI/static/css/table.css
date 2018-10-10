@@ -5,7 +5,22 @@ margin: 20px;
 
 
 }
+.new-product{
+  padding: 10px;
+  margin-bottom:10px;
 
+}
+.new-product a{
+  text-decoration: none;
+  background-color:#f4e1d2;
+  color:#800080;
+  padding: 10px;
+  border:2.0px solid #800080;
+  border-radius:10px;
+}
+.new-product a:hover{
+background-color:white;
+}
 #products{
   width:90%;
   align-self: center;
