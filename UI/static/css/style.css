@@ -19,13 +19,14 @@ body {
 }
 
 .header .logo{
-  text-align: center;
+  text-align: left;
 }
 
 /* navigation list on the right */
 .nav-right{
   float:right;
   margin-right:5px;
+
 
 }
 .nav-right li {
@@ -37,6 +38,10 @@ body {
   text-decoration:none;
 
 }
+.nav-right li a {
+  text-decoration:none;
+}
+
 
 .cards:after {
     content: "";
