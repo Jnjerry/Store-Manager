@@ -18,27 +18,8 @@ margin: 20px;
   border:2.0px solid #800080;
   border-radius:10px;
 }
-.new-items a:hover{
+.new-itemst a:hover{
 background-color:white;
-}
-form{
-float: right;
-
-}
-form.filter input[type=text] {
-padding: 10px;
-background-color:white;
-color:#800080;
-padding: 10px;
-border:2.0px solid #800080;
-border-radius:10px;
-
-
-}
-form.filter::after {
-    content: "";
-    clear: both;
-    display: table;
 }
 #table-items{
   width:90%;
@@ -91,14 +72,4 @@ color:blue;
 background-color:white;
 border-radius: 10px;
 color:red;
-}
-#cart{
-  border-color:#640E0E;
-  border-radius:20px;
-  color:red;
-  text-align: center;
-  background-color:#f4e1d2;
-  }
-#cart a{
-  color:black;
-}
+        }
