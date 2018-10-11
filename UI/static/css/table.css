@@ -18,8 +18,11 @@ margin: 20px;
   border:2.0px solid #800080;
   border-radius:10px;
 }
-.new-itemst a:hover{
+.new-items a:hover{
 background-color:white;
+}
+.new-items h2{
+  text-align: center;
 }
 #table-items{
   width:90%;
