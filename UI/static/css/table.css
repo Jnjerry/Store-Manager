@@ -5,12 +5,12 @@ margin: 20px;
 
 
 }
-.new-product{
+.new-items{
   padding: 10px;
   margin-bottom:10px;
 
 }
-.new-product a{
+.new-items a{
   text-decoration: none;
   background-color:#f4e1d2;
   color:#800080;
@@ -18,32 +18,35 @@ margin: 20px;
   border:2.0px solid #800080;
   border-radius:10px;
 }
-.new-product a:hover{
+.new-items a:hover{
 background-color:white;
 }
-#products{
+.new-items h2{
+  text-align: center;
+}
+#table-items{
   width:90%;
   align-self: center;
   left:20px;
   right:20px;
 }
-#products th{
+#table-items th{
   background-color:#800080 ;
   text-align: center;
   color:white;
   padding:10px;
 
 }
-#products td{
+#table-items td{
   padding: 10px;
   border-left:0.2px solid black;
   border-bottom:2.0px solid #f4e1d2;
 }
-#products td a{
+#table-items td a{
   text-decoration: none;
 
 }
-#products td:hover{
+#table-items td:hover{
 padding: 11px;
 background-color:#f4e1d2;
 border-bottom:1px solid black;
