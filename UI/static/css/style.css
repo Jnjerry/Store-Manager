@@ -1,0 +1,175 @@
+@import "form.css";
+@import "table.css";
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* Header*/
+
+.header{
+  background: white;
+  color: black;
+  padding-top: 10px;
+  min-height: 70px;
+  border-bottom:#800080 3px solid;
+  margin: auto;
+  font-size: 16px;
+}
+
+.header .logo{
+  text-align: left;
+}
+
+/* navigation list on the right */
+.nav-right{
+  float:right;
+  margin-right:5px;
+
+
+}
+.nav-right li {
+  display:inline-block;
+  border-radius: 10px;
+  border: 1px solid;
+  padding: 10px;
+  color:black;
+  text-decoration:none;
+
+}
+.nav-right li a {
+  text-decoration:none;
+}
+
+.dropbtn {
+    background-color: #800080;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.cards:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.cards-up{
+  margin-left: 20px;
+  padding-top: 20px;
+  margin-top: 30px;
+
+}
+
+.top-left-card{
+  float:left;
+  width: 45%;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 5px ;
+  height: 70%;
+  background-color:#622569;
+  color: white;
+
+
+
+}
+.mid-card{
+  border-top: 1px solid black;
+  padding: 30px;
+  background-color:#f4e1d2;
+}
+
+.top-right-card{
+  float:right;
+  width: 45%;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 5px ;
+  background-color:#622569;
+  color: white;
+
+}
+.cards-down{
+margin-top:200px;
+margin-left: 20px;
+
+}
+
+.bottom-left-card{
+width: 45%;
+border: 1px solid black;
+text-align: center;
+border-radius: 5px ;
+float: left;
+left:5px;
+background-color:#622569;
+color: white;
+}
+
+.bottom-right-card{
+float:right;
+width: 45%;
+border:1px solid black;
+text-align: center;
+border-radius: 5px ;
+right:5px;
+background-color:#622569;
+color: white;
+
+}
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 20%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #f1f1f1;
+    border-top: 2px solid black;
+    margin-top: 30px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .form-rightcolumn {
+        width: 100%;
+    }
+}
