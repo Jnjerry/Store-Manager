@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="shortcut icon" type="image/icon" href="../static/img/bookstack.jpg">
+<link rel="stylesheet" href="../static/css/style.css">
+<title>BookLand-Store</title>
+
+</head>
+<body>
+
+	<div class="header">
+
+	<div class="nav-right">
+	 <ul>
+		 <li class="header-button"><a href="dashboard.html">Dashboard</a></li>
+	 <li class="header-button"><a href="admin_sales.html">View Sales</a></li>
+		<li class="header-button"><a href="products.html">Manage Products</a></li>
+		<li class="header-button"><a href="view_products.html">View products details</a></li>
+		<li class="header-button"><a href="../login.html">Log Out</a></li>
+	 </ul>
+	</div>
+	</div>
+
+<div class="row">
+
+ <div class="leftcolumn">
+    <div class="container">
+        <h1>update attendant account</h1>
+      <img src="../static/img/bookstack.jpg" height=70% width=80% alt="logo"/>
+  </div>
+	<div class="new-items">
+			<a href="attendant.html">Back to attendants accounts</a>
+	</div>
+</div>
+
+<div class="form-rightcolumn">
+    <div class="container">
+      <div class="form-container">
+        <form class="form" action="attendant.html" method="get">
+          <div class="form-field-group">
+             <div class="form-field">
+                <label for="id_number">ID Number: </label><br>
+                 <input type="text" id="id_number" placeholder="34591234" required>
+              </div>
+             <div class="form-field">
+              <label for="first_name">First Name: </label><br>
+                <input type="text" id="first_name" placeholder="John" required>
+            </div>
+            <div class="form-field">
+             <label for="last_name">Last Name: </label><br>
+               <input type="text" id="last_name" placeholder="Doe" required>
+           </div>
+
+           <div class="form-field">
+            <label for="password">Password: </label><br>
+              <input type="password" id="password" placeholder="*****" required>
+          </div>
+          <div class="form-field">
+           <label for="role">Role: </label><br>
+             <select name="normal attendant">
+                <option value="normal">Normal Attendant</option>
+                <option value="Privildged">Privildged Attendant</option>
+
+              </select>
+
+
+         </div>
+
+            <div class="form-field">
+              <button class="login-button">
+                  Update Account
+              </button>
+
+            </div>
+
+          </div>
+        </div>
+      </form>
+    </div>
+ </div>
+</div>
+
+
+<div class="footer">
+  <h5>BookLand Store-Copyright 2018</h5>
+</div>
+
+</body>
+</html>
