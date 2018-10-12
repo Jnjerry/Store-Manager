@@ -1,0 +1,57 @@
+@import "form.css";
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* Header*/
+
+.header{
+  background: white;
+  color: black;
+  padding-top: 10px;
+  min-height: 70px;
+  border-bottom:#800080 3px solid;
+  margin: auto;
+  font-size: 16px;
+}
+
+
+
+.header .logo{
+  text-align: center;
+}
+
+/* navigation list on the right */
+
+
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 20%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #f1f1f1;
+    border-top: 2px solid black;
+    margin-top: 30px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .form-rightcolumn {
+        width: 100%;
+    }
+}
