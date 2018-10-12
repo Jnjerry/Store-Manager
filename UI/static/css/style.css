@@ -1,4 +1,5 @@
 @import "form.css";
+@import "table.css";
 body {
     font-family: Arial;
     padding: 10px;
@@ -18,13 +19,14 @@ body {
 }
 
 .header .logo{
-  text-align: center;
+  text-align: left;
 }
 
 /* navigation list on the right */
 .nav-right{
   float:right;
   margin-right:5px;
+
 
 }
 .nav-right li {
@@ -36,6 +38,42 @@ body {
   text-decoration:none;
 
 }
+.nav-right li a {
+  text-decoration:none;
+}
+
+.dropbtn {
+    background-color: #800080;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 .cards:after {
     content: "";
