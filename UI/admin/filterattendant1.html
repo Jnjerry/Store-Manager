@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <link rel="shortcut icon" type="image/icon" href="../static/img/bookstack.jpg">
-<link rel="stylesheet" href="./static/css/style.css">
+<link rel="stylesheet" href="../static/css/style.css">
 <title>BookLand-Store</title>
 
 </head>
@@ -13,10 +13,12 @@
 
 <div class="nav-right">
    <ul>
-     <li class="logout"><a href="attendant_sales.html">View sales</a></li>
-     <li class="logout"><a href="attendantview_details.html">View Product Details</a></li>
-    <li class="logout"><a href="./admin/attendant_products.html">Products</a></li>
-    <li class="logout"><a href="login.html">Log Out</a></li>
+     <li class="logout"><a href="dashboard.html">Dashboard</a></li>
+      <li class="header-button"><a href="admin_sales.html">View Sales</a></li>
+     <li class="header-button"><a href="attendant.html">Manage Attendants</a></li>
+     <li class="header-button"><a href="adminview_products.html">View products list</a></li>
+     <li class="header-button"><a href="view_products.html">View products details</a></li>
+     <li class="header-button"><a href="../login.html">Log Out</a></li>
    </ul>
   </div>
 </div>
@@ -24,9 +26,19 @@
 <div class="table-body">
 
   <div class="new-items">
-    <h4>My Sale Records</h4>
+    <h4> Sale Records-Robert Mcheshi</h4>
   </div>
+  <div class="new-items">
+    <div class="dropdown">
+    <button class="dropbtn">Filter Sale by attendant</button>
+    <div class="dropdown-content">
+        <a href="admin_sales.html">All sales</a>
+      <a href="filterattendant1.html">Robert Mcheshi</a>
+      <a href="filterattendant2.html">Mary Kate</a>
 
+    </div>
+  </div>
+  </div>
   <table id="table-items">
       <tr>
         <th>Product id</th>
@@ -54,18 +66,11 @@
         <td>6000</td>
 
       </tr>
-      <tr>
-        <td>#yud-777</td>
-        <td>10/9/2018</td>
-        <td>48 laws of power</td>
-        <td>1</td>
-        <td>sh 900</td>
-        <td>900</td>
-      </tr>
+
     </table>
     <tr>
   <div class="total">
-   <h3>Total Sales sh.8400</h3>
+   <h3>Total Sales sh.7500</h3>
  </div>
 
   </div>
