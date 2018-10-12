@@ -14,9 +14,11 @@
 
 	<div class="nav-right">
 	 <ul>
-		 <li class="logout"><a href="dashboard.html">Dashboard</a></li>
-		 <li class="logout"><a href="products.html">product list</a></li>
-		 <li class="logout"><a href="../login.html">Log Out</a></li>
+		 <li class="header-button"><a href="dashboard.html">Dashboard</a></li>
+		<li class="header-button"><a href="attendant.html">View Sales</a></li>
+		<li class="header-button"><a href="products.html">Manage Products</a></li>
+		<li class="header-button"><a href="view_products.html">View products details</a></li>
+		<li class="header-button"><a href="../login.html">Log Out</a></li>
 	 </ul>
 	</div>
 	</div>
@@ -28,12 +30,15 @@
         <h1>update attendant account</h1>
       <img src="../static/img/bookstack.jpg" height=70% width=80% alt="logo"/>
   </div>
+	<div class="new-items">
+			<a href="attendant.html">Back to attendants accounts</a>
+	</div>
 </div>
 
 <div class="form-rightcolumn">
     <div class="container">
       <div class="form-container">
-        <form class="form" action="login.html">
+        <form class="form" action="attendant.html" method="get">
           <div class="form-field-group">
              <div class="form-field">
                 <label for="id_number">ID Number: </label><br>
@@ -67,7 +72,9 @@
               <button class="login-button">
                   Update Account
               </button>
+
             </div>
+
           </div>
         </div>
       </form>

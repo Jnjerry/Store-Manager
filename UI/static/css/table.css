@@ -21,8 +21,11 @@ margin: 20px;
 .new-items a:hover{
 background-color:white;
 }
-.new-items h2{
+.new-items h4{
   text-align: center;
+}
+form.filter{
+  float:right;
 }
 #table-items{
   width:90%;
